@@ -6,8 +6,8 @@ permalink:           pretty
 
 # Setup
 title:               GradientOverflow
-tagline:             'Research Blog'
-description:         'Only I can change my life. <br>No one can do it for me.'
+tagline:             'Learning Blog'
+description:         'If you would thoroughly know everything, teach it to others.'
 url:                 https://gradientoverflow.github.io
 baseurl:             ''
 paginate:            5
