@@ -1,0 +1,59 @@
+# Site Info
+title: Learning Blog
+tagline: 'Learning Blog'
+description: 'If you do not walk today, you will have to run tomorrow.'
+baseurl: ""
+url: http://gradientoverflow.github.io
+logo: '/public/logo.png'
+
+# Site configurations
+#gems:
+plugins:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: Joohan Na
+  description: 'If you do not walk today, you will have to run tomorrow.'
+  gravatar: 05c6f425861bdc1abd0e58fbdabf3f3a
+  contact:
+    linkedin:  https://www.linkedin.com/in/joohan-na-186072bb/
+    facebook:  https://www.facebook.com/joohan.na.5
+
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Blog:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:          
+    - '/about/'
+  Github Project: 
+    - 'https://github.com/gradientoverflow/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/math_vs_eng.jpg
+  caption: Engineer vs Mathematician &copy; <a href="https://www.reddit.com/r/MathJokes/comments/apa5kx/engineers_vs_mathematicans_oc/">reddit</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: '' # leave blank if you don't want google analytics
+disqus_short_name: 'gradientoverflow' # leave blank if you don't want disqus
