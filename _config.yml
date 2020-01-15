@@ -42,8 +42,8 @@ nav:
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
-  Github Project: 
-    - 'https://github.com/gradientoverflow/'
+      #Github Project: 
+      #- 'https://github.com/gradientoverflow/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
